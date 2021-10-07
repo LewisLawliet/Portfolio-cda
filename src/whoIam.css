@@ -3,12 +3,9 @@
     background-color: white;
 }
 
-.photo {
-    padding-top: 45px;
-    padding-left: 50px;
+.photo { 
     position: absolute;
-    left: 107px;
-    top: 890px;
+    right: 885px;
 }
 
 .container-photo {
