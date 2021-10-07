@@ -4,13 +4,19 @@
 }
 
 .photo {
-    /*padding-top: 45px;
-    padding-left: 50px;*/
+    padding-top: 45px;
+    padding-left: 50px;
     position: absolute;
     left: 107px;
     top: 890px;
 }
 
+.container-photo {
+    width: 100%; 
+}
+.whoIAm {
+    position: relative;
+}
 .bandeau {
     font-family: 'Stick No Bills', sans-serif;
     height: 126px;

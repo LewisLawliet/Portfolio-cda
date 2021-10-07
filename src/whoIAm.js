@@ -9,9 +9,12 @@ const WhoIAm =()=>{
     return(
         <div className="whoIam" style={{"height": `${height}px`}}>
          <div className="photo-and-me">  
-            <img src={photo} className="photo" alt="photo" />                
-                <div className="center"><div className="bandeau">QUI SUIS-JE</div></div>                    
-         </div>
+         
+                <div className="center">
+                    
+                    <div className="bandeau whoIAm"><img src={photo} className="photo" alt="photo" />QUI SUIS-JE</div>
+                </div>                    
+        </div>
 
          <div className="center top">
              <div className="content">
