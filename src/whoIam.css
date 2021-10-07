@@ -1,0 +1,65 @@
+.whoIam {
+    /*height: 800px;*/
+    background-color: white;
+}
+
+.photo {
+    /*padding-top: 45px;
+    padding-left: 50px;*/
+    position: absolute;
+    left: 107px;
+    top: 890px;
+}
+
+.bandeau {
+    font-family: 'Stick No Bills', sans-serif;
+    height: 126px;
+    width: 780px;
+    background-color: #6474AB;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 14px;
+}
+
+.center{
+    /*width: 100%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-and-me {
+
+    padding-top: 64px;
+ 
+}
+
+.all-with {
+    width: 100%;
+}
+
+.content {
+    width: 75%;
+
+    margin-top: 30px;
+    height: 425px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top {
+    margin-top: 80px;
+}
+
+.cv {
+    background-color: #407BFF;
+    height: 52px;
+    width: 151px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    /*margin-bottom: 30px;*/
+}

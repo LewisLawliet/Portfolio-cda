@@ -1,0 +1,23 @@
+.footer {
+    background-color: black;
+    margin-top: 200px;
+}
+
+.icon {
+    height: 45px;
+    width: auto;
+}
+
+.all-logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.middle {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
