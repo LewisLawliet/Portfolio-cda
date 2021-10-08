@@ -14,6 +14,7 @@
 }
 .whoIAm {
     position: relative;
+    
 }
 .bandeau {
     font-family: 'Stick No Bills', sans-serif;
@@ -66,4 +67,29 @@
     font-weight: bold;
     border-radius: 10px;
     /*margin-bottom: 30px;*/
+}
+
+@media all and (max-width: 1374px) {
+    .photo { 
+       
+        display: none;        
+    }
+
+  
+
+
+
+    .cv {
+        display: none;
+    }
+
+    .content {
+        font-size: 19px;
+    }
+
+    .bandeau {
+        width: 685px;
+        height: 110px;
+        font-size: 35px;
+    }
 }

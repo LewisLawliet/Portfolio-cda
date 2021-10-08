@@ -133,3 +133,44 @@ header{
   z-index: 1;
   position: relative;
 }
+
+@media all and (min-width: 891px) and (max-width: 1200px) {
+  .logo-and-presentation {
+    flex-direction: column;
+  }
+
+  .logo-landing {
+    height: auto;
+    width: 50%;
+  }
+
+  .position {
+    display: none;
+  }
+
+}
+
+
+@media all and (max-width: 890px) {
+  .name{
+    font-size: 15px;
+  }
+
+  .job{
+    font-size: 20px;
+  }
+
+  .logo-and-presentation {
+    flex-direction: column;
+  }
+
+  .logo-landing {
+    height: auto;
+    width: 50%;
+  }
+
+  .position {
+    display: none;
+  }
+
+}

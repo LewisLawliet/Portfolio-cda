@@ -11,8 +11,8 @@ const Competences =()=>{
         <div className="competences" style={{"height": `${height}px`}}>            
                 <div className="center"><div className="bandeau">COMPETENCES</div></div>   
                 <div className="stack-and-tools"> 
-                        <img src={outils} className="outils" alt="outils" />
-                        <img src={stack} className="stack" alt="stack" />
+                        <img src={outils} className="outils bande" alt="outils" />
+                        <img src={stack} className="stack bande" alt="stack" />
 
                 </div>    
         </div>

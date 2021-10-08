@@ -48,9 +48,7 @@
     color: white;    
     height: 184px;
 }
-.my-container:hover #github{
-visibility: visible;
-}
+
 
 .tt {
     position: relative;
@@ -113,4 +111,104 @@ visibility: visible;
 
 .title-project {
     font-family: 'Stick No Bills', sans-serif;
+}
+
+@media all and (min-width: 1000px) and (max-width: 1374px) {
+   
+
+    .emplacement {
+        width: 178px;
+        height: 139px;
+    }
+
+    .projets{
+        flex-direction: column;
+    }
+  
+
+    .gaidjin {
+        width: 178px;
+        height: 139px; 
+    }
+
+    .portfolio-img {
+        width: 178px;
+        height: 139px; 
+    }
+
+    .my-container:hover{           
+        height: 139px;
+        width: 178px
+    }
+
+    .texte_centrer{
+        font-size: 10px;
+    }
+
+
+
+    .tt {
+        
+    }
+
+}
+
+
+@media all and (min-width: 850px)and(max-width: 999px){
+    .emplacement {
+        width: 144px;
+        height: 113px;
+    }
+ 
+  
+
+    .gaidjin {
+        width: 144px;
+        height: 113px;
+    }
+
+    .portfolio-img {
+        width: 144px;
+        height: 113px;
+    }
+
+    .my-container:hover{           
+        width: 144px;
+        height: 113px;
+    }
+
+
+
+}
+
+/* Séparation écran sous 849 */
+
+@media all and (max-width: 849px){
+    .emplacement {
+        width: 144px;
+        height: 113px;
+    }
+
+    .projets{
+        
+    }
+  
+
+    .gaidjin {
+        width: 144px;
+        height: 113px;
+    }
+
+    .portfolio-img {
+        width: 144px;
+        height: 113px;
+    }
+
+    .my-container:hover{           
+        width: 144px;
+        height: 113px;
+    }
+
+
+
 }
