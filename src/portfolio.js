@@ -34,7 +34,7 @@ const Portfolio =()=> {
                                     <img src={github} className="github" alt="git" />
                                 </a>
                                 <a href="https://gaidjin-informe.netlify.app/" target="_blank">
-                                    <img src={logo_gaidjin} className="logo-project" alt="gaidjin" />
+                                    <img src={logo_gaidjin} className="logo-project" alt="gaidjinn" />
                                 </a> 
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Portfolio =()=> {
                                 thématiques de la civilisation. Il contient également une série de Quizz. 
                                 Have fun ! ;)
                                 <a href="https://github.com/LewisLawliet/FrontFilrouge" target="_blank">
-                                    <img src={github} className="github" alt="github" />
+                                    <img src={github} className="github" alt="git" />
                                 </a>
                                 <a href="https://gaidjin-informe.netlify.app/" target="_blank">
                                     <img src={logo_portfolio} className="logo-project" alt="gaidjin" />
