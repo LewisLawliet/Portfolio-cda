@@ -7,7 +7,7 @@ const WhoIAm =()=>{
     const height = window.screen.height;
     console.log("heiiiiigt", height)
     return(
-        <div className="whoIam" style={{"height": `${height}px`}}>
+        <div className="whoIam" id="whoIam" style={{"height": `${height}px`}}>
          <div className="photo-and-me">  
          
                 <div className="center">
@@ -31,7 +31,7 @@ const WhoIAm =()=>{
             <p>Ma citation préférée: «Plus vous saurez regarder loin dans le passé, plus vous verrez 
                 loin dans le futur »
             </p>
-            <div className="center"><button className="cv center">TELECHARGER CV</button></div>
+            <div className="center button"><button className="cv center">TELECHARGER CV</button></div>
           </div>
           
          </div>

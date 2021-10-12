@@ -74,7 +74,7 @@ const CentresInterets =()=>{
     }
 
     return(
-        <div className="centres-interet" style={{"height": `${height}px`}}>            
+        <div className="centres-interet" id="centres-interet" style={{"height": `${height}px`}}>            
                 <div className="center"><div className="bandeau">Centres d'Intérêt</div></div>   
                 <div className="slider"> 
                         

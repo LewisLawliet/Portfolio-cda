@@ -11,7 +11,7 @@ import Portfolio from "./portfolio";
 import Competences from "./competences";
 import CentresInteret from "./centresInteret"
 import Footer from "./footer"
-import {useState, useLayoutEffect, useEffect} from "react"
+import {useState,  useEffect} from "react"
 
 function App() {
   const [heightLogo, setHeightLogo]= useState(null)
@@ -31,15 +31,17 @@ function App() {
 
  
   return (
-    <div className="portfolio">       
+    
+    <div className="portfolio">
+
         <header>
         <img src={logo} className="logo" alt="logo" />
         <div className="navigation">
           <ul className="nav">
-            <li>QUI SUIS JE</li>
-            <li>PORTFOLIO</li>
-            <li>COMPETENCES</li>
-            <li>CENTRES D'INTERET</li>
+            <li><a href ="#whoIam" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a></li>
+            <li><a href ="#portfolio" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a></li>
+            <li><a href ="#competences" style={{"text-decoration": "none", "color": "inherit"}}>COMPETENCES</a></li>
+            <li><a href ="#centres-interet" style={{"text-decoration": "none", "color": "inherit"}}>CENTRES D'INTERET</a></li>
           </ul>  
         </div>
         </header>
@@ -51,7 +53,7 @@ function App() {
               <ul className="my-name-and-job">
                 <li className="name">Nadir Djebbar</li>
                 <li className="job">Développeur Web Front-End</li>
-                <div className="know-more"><li className="box">EN SAVOIR +</li></div>
+                <div className="know-more"><li className="box"><a href ="#whoIam" style={{"text-decoration": "none", "color": "inherit"}}>EN SAVOIR +</a></li></div>
                 <img src={moniteur} className="logo-moniteur position" alt="logo-moniteur" />
               </ul>
             </div>

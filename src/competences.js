@@ -8,7 +8,7 @@ const Competences =()=>{
     const height = window.screen.height;
     console.log("heiiiiigt", height)
     return(
-        <div className="competences" style={{"height": `${height}px`}}>            
+        <div className="competences" id="competences" style={{"height": `${height}px`}}>            
                 <div className="center"><div className="bandeau">COMPETENCES</div></div>   
                 <div className="stack-and-tools">
                     

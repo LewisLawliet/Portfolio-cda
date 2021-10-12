@@ -39,8 +39,11 @@
 
 .photo-and-me {
 
-    padding-top: 64px;
- 
+    padding-top: 64px; 
+}
+
+.button {
+    margin-top: 4%;
 }
 
 .all-with {
@@ -53,7 +56,7 @@
     margin-top: 30px;
     height: 425px;
     font-size: max(1.5vw, 12px);
-    font-size: min(max(25px, 1.5vw), 14px);
+    font-size: min(max(25px, 1.5vw), 17px);
     font-weight: bold;
 }
 
@@ -85,5 +88,21 @@
 
 
   
+}
+
+@media all and (min-width: 1674px) {
+ 
+  
+    .photo {
+        right: 1000px;
+    }
+
+    .button {
+        margin-top: 8%;
+    }
+
+    .content {
+        font-size: 23px;
+    }
 }
 

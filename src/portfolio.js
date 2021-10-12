@@ -13,7 +13,7 @@ const Portfolio =()=> {
     const height = window.screen.height;
     console.log(window)
     return(
-        <div className="portfolio" style={{"height": `${height}px`}}>
+        <div className="portfolio" id="portfolio" style={{"height": `${height}px`}}>
             <div className="center top">
                 <div className="bandeau">PORTFOLIO</div>
             </div>
