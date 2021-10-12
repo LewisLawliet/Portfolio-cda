@@ -77,10 +77,12 @@ const CentresInterets =()=>{
         <div className="centres-interet" style={{"height": `${height}px`}}>            
                 <div className="center"><div className="bandeau">Centres d'Intérêt</div></div>   
                 <div className="slider"> 
-                        {/*<img src={stack} className="stack" alt="stack" />*/} 
+                        
+                        <div className="center-title"><div className="title-favorite">{type}</div></div> 
                         <div className="slides">
+                        {/*<div className="center-title"><div className="title-favorite">{type}</div></div>*/}
                             {favorites[count]}
-                            <div className="title-favorite">{type}</div>
+                            
                             <div className="previous" onClick={previousSlide}>
                                 <div className="triangle-left"></div>
                             </div>

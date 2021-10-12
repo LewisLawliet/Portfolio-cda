@@ -22,10 +22,10 @@ const Portfolio =()=> {
                 <div className="black-screen">
                     <div className="projets">
                         <div className="projet">
-                        <div className="tt">
-                        <div className="my-container">
+                        
+                        <div className="my-container one">
                             <img src={gaidjin} className="gaidjin img" alt="gaidjin" />
-                            <div className="texte_centrer">
+                            <div className="texte_centre">
                                 <span className="title-project">Gaidjin</span><br />
                                 Projet sur la culture Japonaise. Ce site contient des articles fun sur différentes
                                 thématiques de la civilisation. Il contient également une série de Quizz. 
@@ -38,12 +38,12 @@ const Portfolio =()=> {
                                 </a> 
                             </div>
                         </div>
-                        </div>
+                      
 
-                        <div className="tt">
-                        <div className="my-container">
-                        <img src={portfolio} className="portfolio-img" alt="portfolio-img" />
-                            <div className="texte_centrer">
+                        
+                        <div className="my-container two">
+                        <img src={portfolio} className="portfolio-img img" alt="portfolio-img" />
+                            <div className="texte_centre">
                                 <span className="title-project">Portfolio</span><br />
                                 Projet sur la culture Japonaise. Ce site contient des articles fun sur différentes
                                 thématiques de la civilisation. Il contient également une série de Quizz. 
@@ -56,12 +56,12 @@ const Portfolio =()=> {
                                 </a> 
                             </div>
                         </div> 
-                        </div>
+                        
 
-                        <div className="tt">
+                        
                         <div className="my-container">
-                        <img src={en_cours} className="emplacement" alt="emplacement" />
-                        <div className="texte_centrer">
+                        <img src={en_cours} className="emplacement img" alt="emplacement" />
+                        <div className="texte_centre">
                                 <span className="title-project">Signature</span><br />
                                 Projet sur la culture Japonaise. Ce site contient des articles fun sur différentes
                                 thématiques de la civilisation. Il contient également une série de Quizz. 
@@ -72,16 +72,25 @@ const Portfolio =()=> {
 
                             </div>
                         </div>
-                        </div>    
-
-                        <img src={en_cours} className="emplacement" alt="emplacement" />  
+                          
+                        <div className="my-container">
+                        <img src={en_cours} className="emplacement img" alt="emplacement" />
+                        </div>  
                         </div>
 
                         <div className="projet">
-                        <img src={emplacement} className="emplacement" alt="emplacement" /> 
-                        <img src={emplacement} className="emplacement" alt="emplacement" /> 
-                        <img src={emplacement} className="emplacement" alt="emplacement" /> 
-                        <img src={emplacement} className="emplacement" alt="emplacement" /> 
+                        <div className="my-container">
+                            <img src={emplacement} className="emplacement img" alt="emplacement" />
+                        </div>     
+                        <div className="my-container">
+                            <img src={emplacement} className="emplacement img" alt="emplacement" />
+                        </div> 
+                        <div className="my-container">
+                            <img src={emplacement} className="emplacement img" alt="emplacement" />
+                        </div> 
+                        <div className="my-container">
+                            <img src={emplacement} className="emplacement img" alt="emplacement" />
+                        </div> 
                         </div>
                     </div>    
                 </div>

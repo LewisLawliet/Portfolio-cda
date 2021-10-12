@@ -14,18 +14,24 @@
 
 .slides {
     position:relative;
-    width: 600px;
-    height: 370px;
-    border: solid 3px #407BFF;
+    width: 50%;
+    
+    
+}
+
+.imgSlide {
+    /*border: solid 3px #407BFF;*/
+    width: 100%;
+    max-height: 370px !important;
 }
 
 .title-favorite {
-    top: -119px;
-    left: 260px;
+    /*top: -119px;
+    left: 260px;*/
     width: 15%;
     height: 45px;
     background-color: black;
-    position: absolute;
+    /*position: absolute;*/
     border-radius: 10px;
     color: white;
     display: flex;
@@ -35,14 +41,26 @@
     font-weight: bold;
 }
 
+.center-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .previous {
     position: absolute;
     background-color: #407BFF;
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
+    /*height: 65px;
+    width: 65px;    
     left: -180px;
-    top: 125px;
+    top: 125px;*/
+    border-radius: 50%;
+    height: 6vw;
+    width: 6vw;
+    left: -25%;
+    bottom: 45%;
+    max-height: 93px;
+    max-width: 93px;
     cursor: pointer;
  
 }
@@ -54,12 +72,18 @@
 .next {
     position: absolute;
     background-color: #407BFF;
-    height: 65px;
+    /*height: 65px;
     width: 65px;
-    border-radius: 50%;
     right: -180px;
-    top: 125px;
+    top: 125px;*/
+    height: 6vw;
+    width: 6vw;
+    right: -25%;
+    bottom: 45%;
+    border-radius: 50%;
     cursor: pointer;
+    max-height: 93px;
+    max-width: 93px;
 }
 
 .next:hover {
@@ -67,20 +91,61 @@
 }
 
 .triangle-left {
-    border-top: 18px solid transparent;
-    border-bottom: 18px solid transparent;
-    border-right: 30px solid #E5E5E5;
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-right: 3vw solid #E5E5E5;
     position: absolute;
-    top: 14px;
-    left: 14px;
+    top: 17%;
+    left: 17%;
  
 }
 
 .triangle-right {
-    border-top: 18px solid transparent;
-    border-bottom: 18px solid transparent;
-    border-left: 30px solid #E5E5E5;
+    border-top: 2vw solid transparent;
+    border-bottom: 2vw solid transparent;
+    border-left: 3vw solid #E5E5E5;
     position: absolute;
-    top: 14px;
-    right: 14px;
+    top: 17%;
+    right: 17%;
+}
+
+
+@media all and  (min-width: 1374px) {
+
+    .triangle-left {
+        border-top: 26px solid transparent;
+        border-bottom: 26px solid transparent;
+        border-right: 39px solid #E5E5E5;
+        top: 20%;
+        left: 25%;
+     
+    }
+    
+    .triangle-right {
+        border-top: 26px solid transparent;
+        border-bottom: 26px solid transparent;
+        border-left: 39px solid #E5E5E5;
+        top: 20%;
+        right: 25%;
+    }
+
+
+
+}
+
+@media all and  (max-width: 600px) {
+    .title-favorite {
+ 
+        height: 32px;
+            min-width: 89px;
+    }
+
+    .centres-interet, .competences{
+        height: 280px !important;
+
+    }
+
+    .footer {
+        height: 165px;
+    }
 }
