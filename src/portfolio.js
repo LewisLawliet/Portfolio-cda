@@ -45,9 +45,7 @@ const Portfolio =()=> {
                         <img src={portfolio} className="portfolio-img img" alt="portfolio-img" />
                             <div className="texte_centre">
                                 <span className="title-project">Portfolio</span><br />
-                                Projet sur la culture Japonaise. Ce site contient des articles fun sur différentes
-                                thématiques de la civilisation. Il contient également une série de Quizz. 
-                                Have fun ! ;)
+                                Il s'agit du présent portfolio codé en React ! ;)
                                 <a href="https://github.com/LewisLawliet/FrontFilrouge" target="_blank">
                                     <img src={github} className="github" alt="git" />
                                 </a>
@@ -63,18 +61,26 @@ const Portfolio =()=> {
                         <img src={en_cours} className="emplacement img" alt="emplacement" />
                         <div className="texte_centre">
                                 <span className="title-project">Signature</span><br />
-                                Projet sur la culture Japonaise. Ce site contient des articles fun sur différentes
-                                thématiques de la civilisation. Il contient également une série de Quizz. 
-                                Have fun ! ;)
-                                <a href="https://github.com/LewisLawliet/FrontFilrouge" target="_blank">
+                                Projet d'Emergement numérique.<br /> Il s'agit d'un projet réalisé 
+                                dans le cadre de ma formation CDA. Livraison prévue début Décembre !
+                                
                                     <img src={github} className="github central" alt="github" />
-                                </a>
+                                
 
                             </div>
                         </div>
                           
                         <div className="my-container">
                         <img src={en_cours} className="emplacement img" alt="emplacement" />
+                        <div className="texte_centre">
+                                <span className="title-project">Kankōkyaku</span><br />
+                                Projet chef-d'oeuvre réalisé dans le cadre de ma formation CDA, il s'agit
+                                d'un site centré sur la ville de Tokyo et son histoire.
+                                Soon ! Soon ! Soon ! Livraison prévue début Décembre ! ;-) 
+                                    <img src={github} className="github central" alt="github" />
+                                
+
+                            </div>
                         </div>  
                         </div>
 

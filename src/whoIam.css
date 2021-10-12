@@ -73,7 +73,13 @@
     border-radius: 10px;
     /*margin-bottom: 30px;*/
 }
+.button {
+    margin-top: 8%;
+}
 
+.content {
+    font-size: 23px;
+}
 @media all and (max-width: 1374px) {
     .photo { 
        

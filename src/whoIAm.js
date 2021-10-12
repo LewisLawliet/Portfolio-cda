@@ -31,7 +31,8 @@ const WhoIAm =()=>{
             <p>Ma citation préférée: «Plus vous saurez regarder loin dans le passé, plus vous verrez 
                 loin dans le futur »
             </p>
-            <div className="center button"><button className="cv center">TELECHARGER CV</button></div>
+            <div className="center button"><button className="cv center"><a href="/img/cv-nadir-djebbar.pdf.pdf" target="_blank"  
+             style={{"text-decoration": "none", "color": "inherit"}} download="cv-nadir-djebbar.pdf.pdf" rel="noopener noreferrer">Télécharger CV</a></button></div>
           </div>
           
          </div>
