@@ -64,6 +64,10 @@ header{
   min-width: 300px;
 }
 
+.nav-links:hover {
+  color: #2684FF !important;
+}
+
 .test{
   height: 100px;
   background-color: white;

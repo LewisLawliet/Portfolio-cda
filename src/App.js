@@ -38,10 +38,10 @@ function App() {
         <img src={logo} className="logo" alt="logo" />
         <div className="navigation">
           <ul className="nav">
-            <li><a href ="#whoIam" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a></li>
-            <li><a href ="#portfolio" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a></li>
-            <li><a href ="#competences" style={{"text-decoration": "none", "color": "inherit"}}>COMPETENCES</a></li>
-            <li><a href ="#centres-interet" style={{"text-decoration": "none", "color": "inherit"}}>CENTRES D'INTERET</a></li>
+            <li><a href ="#whoIam" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a></li>
+            <li><a href ="#portfolio" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a></li>
+            <li><a href ="#competences" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>COMPETENCES</a></li>
+            <li><a href ="#centres-interet" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>CENTRES D'INTERET</a></li>
           </ul>  
         </div>
         </header>
