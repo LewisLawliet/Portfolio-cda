@@ -76,7 +76,7 @@ const Portfolio =()=> {
                                 <span className="title-project">Kankōkyaku</span><br />
                                 Projet chef-d'oeuvre réalisé dans le cadre de ma formation CDA, il s'agit
                                 d'un site centré sur la ville de Tokyo et son histoire.
-                                Soon ! Soon ! Soon ! Livraison prévue début Décembre ! ;-) 
+                                Soon ! Soon ! Soon ! Livraison prévue Fin Novembre ! ;-) 
                                     <img src={github} className="github central" alt="github" />
                                 
 

@@ -12,9 +12,11 @@ import Competences from "./competences";
 import CentresInteret from "./centresInteret"
 import Footer from "./footer"
 import {useState,  useEffect} from "react"
+import { slide as Menu } from "react-burger-menu";
 
 function App() {
   const [heightLogo, setHeightLogo]= useState(null)
+  const [menuOpen, setmenuOpen]= useState(false)
   const height = window.screen.height;
   
 
@@ -29,7 +31,13 @@ function App() {
     test()
   },[heightLogo]) 
 
- 
+  const handleStateChange=(state)=>{
+    setmenuOpen(state.isOpen );
+  }
+
+  const closeMenu=()=> {
+    setmenuOpen(false);
+  }
   return (
     
     <div className="portfolio">
@@ -37,6 +45,12 @@ function App() {
         <header>
         <img src={logo} className="logo" alt="logo" />
         <div className="navigation">
+          <Menu>
+          <a href ="#whoIam" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a>
+            <a href ="#portfolio" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a>
+            <a href ="#competences" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>COMPETENCES</a>
+            <a href ="#centres-interet" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>CENTRES D'INTERET</a>
+          </Menu>
           <ul className="nav">
             <li><a href ="#whoIam" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a></li>
             <li><a href ="#portfolio" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a></li>

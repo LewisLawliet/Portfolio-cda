@@ -185,7 +185,7 @@ header{
 }
 
 @media all and (max-width: 600px){
-  .nav {    
+  /*.nav {    
     padding: 1px;
   }
 
@@ -196,7 +196,17 @@ header{
   .logo {
 
     padding-left: 1px;
+  }*/
+  .nav {
+    visibility: hidden;
+  }
+  .box {
+    height: 29px;
   }
 
+  .logo {
+
+    padding-left: 1px;
+  }
  
 }
