@@ -18,7 +18,7 @@ function App() {
   const [heightLogo, setHeightLogo]= useState(null)
   const [menuOpen, setmenuOpen]= useState(false)
   const height = window.screen.height;
-  
+  const width = window.screen.width;
 
   const test =()=> {
   setTimeout(() => {
@@ -29,6 +29,7 @@ function App() {
 
   useEffect(()=>{
     test()
+    console.log(window.screen.width)
   },[heightLogo]) 
 
   const handleStateChange=(state)=>{
@@ -45,12 +46,12 @@ function App() {
         <header>
         <img src={logo} className="logo" alt="logo" />
         <div className="navigation">
-          <Menu>
+          {width < 600 ? <Menu>
           <a href ="#whoIam" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a>
             <a href ="#portfolio" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a>
             <a href ="#competences" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>COMPETENCES</a>
             <a href ="#centres-interet" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>CENTRES D'INTERET</a>
-          </Menu>
+          </Menu> : null}
           <ul className="nav">
             <li><a href ="#whoIam" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>QUI SUIS JE</a></li>
             <li><a href ="#portfolio" className="nav-links" style={{"text-decoration": "none", "color": "inherit"}}>PORTFOLIO</a></li>
